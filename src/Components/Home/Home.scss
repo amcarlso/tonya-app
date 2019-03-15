@@ -1,0 +1,13 @@
+
+.home-page {
+  width: 100vw;
+  min-height: calc(100vh - 3rem);
+  background: rgb(245, 136, 136);
+  display: flex;
+  justify-content: center;
+  .home-content {
+    background: rgb(255, 255, 255);
+    width: 50vw;
+    min-height: inherit;
+  }
+}

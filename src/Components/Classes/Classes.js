@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Classes.scss';
 
 export default function Classes() {
   return (

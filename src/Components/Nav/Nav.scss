@@ -1,0 +1,13 @@
+.nav-bar {
+  min-height: 3rem;
+  background: rgb(136, 136, 255);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  .nav-buttons {
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    margin: 0 0.4rem;
+  }
+}
