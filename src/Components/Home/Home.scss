@@ -1,5 +1,6 @@
-
+@import '../../sassVars.scss';
 .home-page {
+  font-family: $font;
   width: 100vw;
   min-height: calc(100vh - 3rem);
   background: rgb(245, 136, 136);

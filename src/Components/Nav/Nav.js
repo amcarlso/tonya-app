@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom';
+import { withRouter, Link } from 'react-router-dom';
 import './Nav.scss';
 
 class Nav extends Component{
@@ -13,18 +13,29 @@ class Nav extends Component{
   render() {
     return (
       <div className='nav-bar'>
-        <span className='nav-buttons'>
-          Home
-        </span>
-        <span className='nav-buttons'>
-          About
-        </span>
-        <span className='nav-buttons'>
-          Classes
-        </span>
-        <span className='nav-buttons'>
-          Contact
-        </span>
+        <header>Tonya's App</header>
+        <div className='button-container'>
+          <Link to='/'>
+            <span className='nav-buttons'>
+              Home
+            </span>
+          </Link>
+          <Link to='/about'>
+            <span className='nav-buttons'>
+              About
+            </span>
+          </Link>
+          <Link to='/classes'>
+            <span className='nav-buttons'>
+              Classes
+            </span>
+          </Link>
+          <Link to='/contact'>
+            <span className='nav-buttons'>
+              Contact
+            </span>
+          </Link>
+        </div>
       </div>
     )
   }
